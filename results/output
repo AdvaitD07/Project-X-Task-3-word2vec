@@ -1,0 +1,21 @@
+
+Start Training
+Epoch: 0 | Total Error: 58.642
+Epoch: 10 | Total Error: 50.4707
+Epoch: 20 | Total Error: 36.3232
+Epoch: 30 | Total Error: 28.5146
+Epoch: 40 | Total Error: 24.1675
+
+Training Complete!
+
+--- Testing the Trained Model ---
+The 50-Dimensional Coordinate Vector for 'fox':
+tensor([[-0.5524, -0.6987,  0.2209,  0.3767, -1.1438, -0.4615, -0.2983, -0.2157,
+          0.1767,  0.2839,  0.8388,  0.1508,  0.2855, -0.1778, -0.1321, -0.4144,
+         -0.1401,  0.0347,  0.1613,  0.2239,  0.9223, -0.4428, -0.3416,  0.8042,
+          0.9404, -0.2179, -0.3396, -0.1934,  0.4193, -0.1693, -0.0073, -0.1903,
+         -0.5278,  0.2268, -0.3312, -1.0796, -0.1365,  0.4552, -0.1915, -0.0420,
+         -0.3518, -0.8228,  0.9517,  0.4627, -0.0874,  0.6182,  0.0811,  0.7646,
+         -0.2482, -0.4977]], grad_fn=<EmbeddingBackward0>)
+
+If you say 'fox', the  guessed context word is: jumps
